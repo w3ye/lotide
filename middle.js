@@ -7,3 +7,5 @@ const middle = (arr) => {
   } else out.push(Math.round(arr.length / 2));
   return out;
 };
+
+module.exports = middle;
