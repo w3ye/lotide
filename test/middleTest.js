@@ -1,4 +1,4 @@
-const middle = require('../middle.js');
+const middle = require('../index').middle;
 const assert = require('chai').assert;
 
 describe("#middle", () => {
